@@ -1,0 +1,147 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	list-style:none;
+	
+}
+a{text-decoration:none;}
+ul li{list-style:none;}
+.clear{
+	clear:both;
+	font-size:1px;
+	width:1px;
+	height:0px;
+	visibility:hidden;  /*设置该元素不可见*/
+	overflow:hidden;    /*内容会被修建，并且其余内容是不可见的*/
+}
+.top{
+	background:#404040;
+	display:table;/*此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。 */
+	width:1480px;
+	margin:0 auto;
+}
+.top ul{
+	float:right;
+	margin-right:30px;
+}
+.top ul li{
+	float:left;
+	margin:0px 10px;
+}
+.top ul li a{
+	display:block;
+	color:#c2c2c2;
+	line-height:30px;
+	margin:10px 0px;
+	width:75px;
+	text-align:center;
+}
+.top ul li a:hover{
+	background:#000;
+	
+}
+
+.header{
+	background:#f6f6f6 ;width:1480px;margin:0 auto;
+}
+.logo img{
+	display:block;
+	margin:0px auto;
+	padding-top:5px;
+}
+.menu{
+	display:table;
+	margin:0 auto;
+	
+	
+}
+.menu ul li{float:left;position:relative;}
+.menu ul li.li_line{
+	width:2px;
+	background:#FFF;
+	height:44px;
+}
+.menu ul li a {
+	display:block;
+	line-height:44px; 
+	width:150px;
+	text-align:center;
+	color:#000;
+	font-size:20px;
+
+}
+
+.menu ul li a:hover{
+	background:#a3e0ef ;
+}
+
+
+.logo img{
+  display:block;
+  margin:0px auto;
+  padding-top:5px;
+}
+
+
+
+
+ .banner{height:350px;
+  width:1480px;
+  margin:0px auto;
+  overflow: hidden;
+  position: relative;
+  }
+ .banner ul{position:absolute;} 
+ .banner ul li{}
+ .banner ol{position:absolute;
+   right:5px;
+   bottom:10px;}
+ .banner ol li{height:20px; width: 20px;
+    background:#ccc;
+    border:solid 1px #666;
+    margin-left:5px;
+    color:#000;
+    float:left;
+    line-height:center;
+    text-align:center;
+    cursor:pointer;}
+ .banner ol .on{background:#E97305;
+    color:#fff;}
+	.content{
+		width:1480px;
+	    margin:0 auto;
+	}
+  .news{float:left;width:300px;}
+  .news dl dd{
+	  float:left; 
+	  color:  #464646;
+	  font-size:16px;
+	  font-weight:bold;
+	  line-height:24px;
+  }
+  .news dl dt{
+	  float:right;
+	  line-height:24px;
+	  background:#c2c2c2 ;
+	  padding-left:6px;
+	  font-size:12px;
+  }
+  .news ul li {
+	  line-height:13px;
+  }
+
+  
+  .news_a{
+      padding-left:10px;
+	  overflow:hidden;
+	  text-overflow:ellipsis; /*实现省略号；*/
+	  white-space:nowrap;
+	  width:290px;
+	  display:block;
+	  color:black;
+	  }
+a{
+	color:black;
+}

@@ -1,0 +1,6 @@
+系统运行的必要前提：
+1.先把highNews数据库加载起来；
+2.在部署的tomcat下配置下虚拟路径（项目中的图片上传需求），在\apache-tomcat-7.0.42\conf\server.xml 文件中配置
+<Context path="/img" docBase="d:\img" ></Context>     <!--这是我改动的，要弄虚拟文件夹-->
+3.该系统是有手机端和PC端的运行；
+4.谢谢使用；

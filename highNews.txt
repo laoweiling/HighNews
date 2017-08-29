@@ -1,0 +1,34 @@
+drop database if exists highNews;
+create database highNews;
+use highNews;
+drop table if exists newstype;
+create table newstype(
+    typeid int(6) not null  primary key ,
+  typename varchar(45) null   
+);
+
+drop table if exists news;
+create table news(
+   newsid int(6) not null  primary key auto_increment,
+  newstitle varchar(80) null,
+  author varchar(50) null,
+  content text  null,
+  typeid int not null,
+  pubtime varchar(20) binary  NULL default '0000-00-00 00:00',
+  newspic varchar(100) null,
+  foreign key (typeid) references newstype(typeid) on delete restrict on update restrict
+
+);
+
+drop table if exists users;
+create table users(
+    userid int  primary key not null  auto_increment , 
+    username varchar(20)  null,
+    userpwd varchar(20) null,
+    userleval int default '0'
+
+);
+insert into users values(null,'admin','admin',1);
+insert into users values(null,'test','test',0);
+
+

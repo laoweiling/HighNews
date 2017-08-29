@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <servlet-class>control.AddNewsServlet</servlet-class>
+    <!-- 我配置的初始化参数 -->
+    
+   <!-- 我配置的初始化参数 -->
+  </servlet>
+  <servlet>
+    <servlet-name>DelNewsServlet</servlet-name>
+    <servlet-class>control.DelNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindNewsServlet</servlet-name>
+    <servlet-class>control.FindNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListNewsServlet</servlet-name>
+    <servlet-class>control.ListNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>control.LoginServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>RenewNewsServlet</servlet-name>
+    <servlet-class>control.RenewNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourceServlet</servlet-name>
+    <servlet-class>control.ResourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourceNewsTypeServlet</servlet-name>
+    <servlet-class>control.ResourceNewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResorceUsersServlet</servlet-name>
+    <servlet-class>control.ResorceUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddNewsTypeServlet</servlet-name>
+    <servlet-class>control.AddNewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelNewsTypeServlet</servlet-name>
+    <servlet-class>control.DelNewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindNewsTypeServlet</servlet-name>
+    <servlet-class>control.FindNewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelNewsTypeServlet</servlet-name>
+    <servlet-class>control.SelNewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RenewNewstypeServlet</servlet-name>
+    <servlet-class>control.RenewNewstypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selallnewstypetab</servlet-name>
+    <servlet-class>selallnewstypetab</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUsersServlet</servlet-name>
+    <servlet-class>control.AddUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelUsersServlet</servlet-name>
+    <servlet-class>control.DelUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelUsersServlet</servlet-name>
+    <servlet-class>control.SelUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RenewUsersServlet</servlet-name>
+    <servlet-class>control.RenewUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourceUsersServlet</servlet-name>
+    <servlet-class>control.ResourceUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>uploadServlet</servlet-name>
+    <servlet-class>control.uploadServlet</servlet-class>
+    <init-param>
+    	<param-name>img_save_path</param-name>
+    	<param-value>d:\\img</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>GetJasonMServlet</servlet-name>
+    <servlet-class>control.GetJasonMServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <servlet-mapping>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <url-pattern>/servlet/AddNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelNewsServlet</servlet-name>
+    <url-pattern>/servlet/DelNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindNewsServlet</servlet-name>
+    <url-pattern>/servlet/FindNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListNewsServlet</servlet-name>
+    <url-pattern>/servlet/ListNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RenewNewsServlet</servlet-name>
+    <url-pattern>/servlet/RenewNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceServlet</servlet-name>
+    <url-pattern>/servlet/ResourceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceNewsTypeServlet</servlet-name>
+    <url-pattern>/servlet/ResourceNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResorceUsersServlet</servlet-name>
+    <url-pattern>/servlet/ResorceUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewsTypeServlet</servlet-name>
+    <url-pattern>/servlet/AddNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelNewsTypeServlet</servlet-name>
+    <url-pattern>/servlet/DelNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindNewsTypeServlet</servlet-name>
+    <url-pattern>/servlet/FindNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelNewsTypeServlet</servlet-name>
+    <url-pattern>/servlet/SelNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RenewNewstypeServlet</servlet-name>
+    <url-pattern>/servlet/RenewNewstypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selallnewstypetab</servlet-name>
+    <url-pattern>/servlet/selallnewstypetab</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUsersServlet</servlet-name>
+    <url-pattern>/servlet/AddUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelUsersServlet</servlet-name>
+    <url-pattern>/servlet/DelUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelUsersServlet</servlet-name>
+    <url-pattern>/servlet/SelUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RenewUsersServlet</servlet-name>
+    <url-pattern>/servlet/RenewUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceUsersServlet</servlet-name>
+    <url-pattern>/servlet/ResourceUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadServlet</servlet-name>
+    <url-pattern>/servlet/uploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJasonMServlet</servlet-name>
+    <url-pattern>/servlet/GetJasonMServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
